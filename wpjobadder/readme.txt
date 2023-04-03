@@ -17,8 +17,8 @@ WP Job Adder is a lightweight job fetching plugin for JobAdder. This plugin is a
 #### Features:
 
 *   Fetch multiple JobAdder xml files, just separate the urls by a `|` character.
-*   Jobs are fetched in the background hourly, the plugin will not slow down your site.
-*   Other...
+*   Jobs are fetched in the background hourly.
+*   Integration with ACF.
 
 #### Documentation
 
@@ -30,17 +30,13 @@ Use the WordPress.org forums for community support where we try to help all user
 
 == Frequently Asked Questions ==
 
-= How do I install WP Job Adder? =
-
-Upload the wpjobadder.zip file you received with your license.
-
 = How to I customise the import? =
 
-All WP Job Adder settings are found in the admin menu (Settings -> WP Job Adder).
+All WP Job Adder settings are found in the admin menu `Settings -> WP Job Adder`.
 
 == Installation ==
-1. Upload 'wpjobadder.zip' to the 'Plugins -> Add New -> Upload Plugin' section of your dashboard.
-2. Activate the plugin in the 'Plugins' section.
+1. Upload 'wpjobadder.zip' to the `Plugins -> Add New -> Upload Plugin` section of your dashboard.
+2. Activate the plugin in the `Plugins` section.
 
 == Changelog ==
 
@@ -50,8 +46,8 @@ All WP Job Adder settings are found in the admin menu (Settings -> WP Job Adder)
 
 #### 1.1.1
 
-*   Fix: Plugin license api now works.
+*   Fix: Plugin license api functionality works correctly.
 
 #### 1.1.0
 
-*   Change: First functioning version of the plugin.
+*   Change: First complete version of the plugin.
