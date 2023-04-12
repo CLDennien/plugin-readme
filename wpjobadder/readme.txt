@@ -1,10 +1,10 @@
 === WP Job Adder ===
 Contributors: cdennien
 Tags: wpjobadder, jobadder, job
-Requires at least: 5.0
+Requires at least: 5.4
 Tested up to: 6.2
-Stable tag: 1.1.3
-Requires PHP: 7.3
+Stable tag: 1.0.1
+Requires PHP: 7.4
 License: GNU General Public License v2.0
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,7 +26,7 @@ To be added in the future...
 
 #### Support
 
-Use the WordPress.org forums for community support where we try to help all users. Otherwise send us a support ticket at [wpjobadder.kinsta.cloud](https://wpjobadder.kinsta.cloud)
+Use the WordPress.org forums for community support where we try to help all users. Otherwise send us a [support ticket](https://wpjobadder.kinsta.cloud)
 
 == Frequently Asked Questions ==
 
@@ -35,23 +35,18 @@ Use the WordPress.org forums for community support where we try to help all user
 All WP Job Adder settings are found in the admin menu `Settings -> WP Job Adder`.
 
 == Installation ==
-1. Upload 'wpjobadder.zip' to the `Plugins -> Add New -> Upload Plugin` section of your dashboard.
+1. Upload 'wp-job-adder.zip' to the `Plugins -> Add New -> Upload Plugin` section of your dashboard.
 2. Activate the plugin in the `Plugins` section.
 
 == Changelog ==
 
-#### 1.1.3
+#### 1.0.1
 
-* Enhancement: Added ability to change company logo.
+*   Fix: Cron fires reliably now.
+*   Enhancement: Add `Run Now` link to `Plugins` section.
+*   Enhancement: Log job import errors.
+*   Enhancement: Handle multiple xml files, separate by `|` character.
 
-#### 1.1.2
+#### 1.0.0
 
-*   Enhancement: Added basic settings notices.
-
-#### 1.1.1
-
-*   Fix: Plugin license api functionality works correctly.
-
-#### 1.1.0
-
-*   Change: First complete version of the plugin.
+*   Init: First complete version of the plugin.
